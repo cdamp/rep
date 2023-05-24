@@ -10,7 +10,7 @@
             </LinearGradientBrush>
         </Grid.Background>
         <TextBox Name="TextBox_Vichislenie" HorizontalAlignment="Left" Height="71" Margin="10,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="772" FontSize="22"/>
-        <Button Name="Button_CE" Content="CE" HorizontalAlignment="Left" Height="50" Margin="10,86,0,0" VerticalAlignment="Top" Width="138" FontSize="22" Background="#FF43F5BD" />
+        <Button Name="Button_CE" Content="CE" HorizontalAlignment="Left" Height="50" Margin="10,86,0,0" VerticalAlignment="Top" Width="138" FontSize="22" Background="#FF43F5BD" Click="Button_CE_Click" />
         <Button Name="Button_Koren" Content="√" HorizontalAlignment="Left" Height="50" Margin="10,153,0,0" VerticalAlignment="Top" Width="138" FontSize="30" Background="#FF72ED8D"/>
         <Button Name="Button_7" Content="7" HorizontalAlignment="Left" Height="50" Margin="169,153,0,0" VerticalAlignment="Top" Width="138" FontSize="30" Background="#FF72ED8D"/>
         <Button Name="Button_8" Content="8" HorizontalAlignment="Left" Height="50" Margin="331,153,0,0" VerticalAlignment="Top" Width="138" FontSize="30" Background="#FF72ED8D"/>
@@ -28,7 +28,7 @@
         <Button Name="Button_3" Content="3" HorizontalAlignment="Left" Height="50" Margin="489,293,0,0" VerticalAlignment="Top" Width="138" FontSize="30" Background="#FFDADD26"/>
         <Button Name="Button_Slojenie" Content="+" HorizontalAlignment="Left" Height="50" Margin="644,293,0,0" VerticalAlignment="Top" Width="138" FontSize="30" Background="#FFDADD26"/>
         <Button Name="Button_Plus_Minec" Content="±" HorizontalAlignment="Left" Height="50" Margin="10,359,0,0" VerticalAlignment="Top" Width="138" FontSize="30" Background="Gold"/>
-        <Button Name="Button_Tochka" Content="." HorizontalAlignment="Left" Height="50" Margin="489,359,0,0" VerticalAlignment="Top" Width="138" FontSize="30" Background="Gold"/>
+        <Button Name="Button_Tochka" Content="," HorizontalAlignment="Left" Height="50" Margin="489,359,0,0" VerticalAlignment="Top" Width="138" FontSize="30" Background="Gold" Click="Button_Tochka_Click"/>
         <Button Name="Button_Ravno" Content="=" HorizontalAlignment="Left" Height="50" Margin="644,359,0,0" VerticalAlignment="Top" Width="138" FontSize="30" Background="Gold"/>
         <Button Name="Button_0" Content="0" HorizontalAlignment="Left" Height="50" Margin="169,359,0,0" VerticalAlignment="Top" Width="300" FontSize="30" Background="Gold"/>
     </Grid>

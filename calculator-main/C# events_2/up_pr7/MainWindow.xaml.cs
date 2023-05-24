@@ -95,5 +95,15 @@ namespace up_pr7
                     }
             }
         }
+
+        private void Button_CE_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Tochka_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     } 
 }
